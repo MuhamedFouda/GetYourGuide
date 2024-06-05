@@ -1,0 +1,92 @@
+.coverNature {
+    height: 85vh;
+    width: 100%;
+    background-image: url("https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/bltf847d0f997eaf01f/6641e4897f4114bd6d351c05/BM24-HP-DESKTOP-011-right.jpg?auto=webp&quality=60");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: cover;
+    position: relative;
+
+    .filterNature {
+        height: 85vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.336);
+        position: absolute;
+        top: 0;
+
+        .coverDetails {
+            width: 80%;
+            margin: 5rem 0 0;
+            padding: 7rem 0 0 10rem;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1rem;
+
+            @media only screen and (max-width: 450px) {
+                margin: 5rem 0 0 0;
+                padding: 8rem 0 0 1rem;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 451px){
+                margin: 5rem 0 0 0;
+                padding: 10rem 0 0 5rem;
+            }
+            @media only screen and (min-width: 769px) and (max-width: 900px) {
+                margin: 5rem 0 0 0;
+                padding: 10rem 0 0 5rem;
+            }
+    
+            @media only screen and (min-width: 901px) and (max-width: 1140px) {
+                margin: 5rem 0 0 0;
+                padding: 10rem 0 0 10rem;
+            }
+
+            h1 {
+                font-size: 3.5rem;
+                font-weight: 700;
+                padding: 0;
+
+                @media only screen and (max-width: 1140px) {
+                    font-size: 3rem;
+                }
+                @media only screen and (max-width: 900px) {
+                    font-size: 2.5rem;
+                }
+                @media only screen and (max-width: 768px) {
+                    font-size: 2rem;
+                }
+                @media only screen and (max-width: 480px) {
+                    font-size: 1.8rem;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 500;
+
+                @media only screen and (max-width: 1140px) {
+                    font-size: 1rem;
+                }
+                @media only screen and (max-width: 900px) {
+                    font-size: 0.9rem;
+                }
+                @media only screen and (max-width: 768px) {
+                    font-size: 0.8rem;
+                }
+                @media only screen and (max-width: 480px) {
+                    font-size: 0.7rem;
+                    text-align: left;
+                }
+            }
+            h4{
+                @media only screen and (max-width: 480px) {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
